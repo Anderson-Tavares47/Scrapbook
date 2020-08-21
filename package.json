@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Anderson-Tavares47/scrapbook.git",
-  "author": "Eduardo Saldanha <eduardo_saldanha@hotmail.com.br>",
+  "author": "Anderson Tavares <andersom_felipetavares@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -15,7 +15,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.19.2",
